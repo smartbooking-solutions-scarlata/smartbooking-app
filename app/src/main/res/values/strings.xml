@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">SmartBooking</string>
+    <string name="login_titulo">Iniciar sesión</string>
+    <string name="login_email_hint">Correo electrónico</string>
+    <string name="login_password_hint">Contraseña</string>
+    <string name="login_boton">Ingresar</string>
+    <string name="login_error_email_vacio">Ingresá tu correo</string>
+    <string name="login_error_email_invalido">El correo no tiene un formato válido</string>
+    <string name="login_error_password_vacia">Ingresá tu contraseña</string>
+    <string name="login_error_400">Datos incorrectos. Revisá el correo y la contraseña</string>
+    <string name="login_error_401">Correo o contraseña incorrectos</string>
+    <string name="login_error_servidor">Error del servidor. Probá de nuevo más tarde</string>
+    <string name="login_error_red">No se pudo conectar. Revisá tu conexión</string>
 </resources>

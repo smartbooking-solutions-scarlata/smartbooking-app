@@ -53,7 +53,7 @@ public class LoginActivity extends AppCompatActivity {
 
         btnLogin.setEnabled(false);
 
-        ApiClient.getService().login(new LoginRequest(email, password))
+        ApiClient.getService(this).login(new LoginRequest(email, password))
                 .enqueue(new Callback<LoginResponse>() {
                     @Override
                     public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {

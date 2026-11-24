@@ -11,4 +11,6 @@
     <string name="login_error_401">Correo o contraseña incorrectos</string>
     <string name="login_error_servidor">Error del servidor. Probá de nuevo más tarde</string>
     <string name="login_error_red">No se pudo conectar. Revisá tu conexión</string>
+    <string name="bienvenida">Bienvenido</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
 </resources>
